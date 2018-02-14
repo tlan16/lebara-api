@@ -19,7 +19,7 @@ def main():
 
     if len(args.username) == 0:
         args.username = input('Username: ')
-    elif len(args.password) == 0:
+    if len(args.password) == 0:
         args.password = getpass.getpass()
 
     lebara = LebaraApi(args.username, args.password)

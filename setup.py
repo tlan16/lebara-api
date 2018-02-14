@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='lebara-api',
-    version='0.3.0',
+    version='0.3.1',
     description='lebara api',
     url='https://github.com/tlan16/lebara-api',
     author='Frank Lan',

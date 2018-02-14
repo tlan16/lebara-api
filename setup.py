@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='lebara-api',
-    version='0.2',
+    version='0.3.0',
     description='lebara api',
     url='https://github.com/tlan16/lebara-api',
     author='Frank Lan',
@@ -14,6 +14,15 @@ setup(
     install_requires=[
         'requests',
         'beautifulsoup4',
+        'tabulate',
     ],
+    test_suite='nose.collector',
+    tests_require=[
+        'nose',
+        'python-dotenv',
+    ],
+    entry_points={
+        'console_scripts': ['lebara-api=lebara_api.command_line:main'],
+    },
     zip_safe=False,
 )

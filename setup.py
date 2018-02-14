@@ -9,7 +9,7 @@ setup(
     author_email='franklan118@gmail.com',
     license='GPL-3.0',
     packages=[
-        'lebara-api',
+        'lebara_api',
     ],
     install_requires=[
         'requests',

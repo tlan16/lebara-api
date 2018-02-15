@@ -15,7 +15,7 @@ print(lebara.getAccountSummery())
 
 # Installation
 ```bash
-pip install -U lebara-api
+pip3 install -U lebara-api
 ```
 
 # Command-line interface
